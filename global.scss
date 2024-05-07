@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1320px !important;
+  margin: auto;
+
+  @media screen and (max-width: 1320px) {
+    padding: 0 20px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    padding: 0 10px;
+  }
+}
+.img-shape{
+  clip-path: polygon(27% 0, 100% 0, 100% 100%, 0% 100%);
+}
+.img-shape2{
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+
+}
