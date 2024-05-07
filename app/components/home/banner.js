@@ -23,9 +23,9 @@ const Banner = () => {
           className=" w-full h-full"
         />
         </div>
-         <div className=" container  flex lg:flex-row flex-col items-center  justify-center ">
+         <div className=" container  flex lg:flex-row flex-col lg:items-center  justify-center ">
           <div className="sm:w-[50%] w-full    h-full">
-            <div className="xl:text-[61px] text-[30px] text-white font-bold sm:mb-[32px] mb-[16px] capitalize">
+            <div className="header-1 text-white font-bold sm:mb-[32px] mb-[16px] capitalize">
               <h2>book your taxi from </h2>
               <h2 className=" text-[#1F8A70]"> anywhere today!</h2>
             </div>
@@ -35,7 +35,7 @@ const Banner = () => {
               transportation of passengers for a fare. It is often characterized
               by its distinctive exterior markings,
             </p>
-            <div className="flex  sm:flex-row flex-col gap-y-[16px] gap-x-[16px] ">
+            <div className="flex  sm:flex-row flex-col gap-y-[16px] gap-x-[16px] b-input ">
               <Input
                 placeholder="Pickup location"
                 className="sm:py-[12px] sm:px-[20px] py-2 px-2 text-[#2B2B2B]"

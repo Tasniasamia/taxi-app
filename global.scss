@@ -21,3 +21,25 @@
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 
 }
+.header-1{
+  @apply xl:text-[61px] text-[30px] font-bold;
+}
+.header-2{
+  @apply md:text-[32px] text-[21px] font-medium;
+}
+.b-input {
+  input::placeholder{
+    color: #2b2b2b;
+  }
+}
+.mobile-menu  .ant-menu {
+  background-color:#0b0b0b !important;
+ 
+}
+.mobile-menu .ant-menu-item{
+  color:white!important;
+}
+.mobile-menu  .ant-menu-item-selected{
+  background-color: transparent!important;
+  color: #1F8A70 !important;
+}
