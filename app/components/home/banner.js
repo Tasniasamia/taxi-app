@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div className=" md:pt-[86.99px] pt-[40px] md:pb-[100px] pb-[50px] bg-[url('/bg.png')] bg-cover bg-no-repeat">
       <div className=" h-[634px] relative ">
-        <div className="absolute sm:block hidden right-0 w-[50%] h-full img-shape">
+        <div className="absolute sm:block hidden right-0 w-[55%] 2xl:w-[50%] h-full img-shape">
         <Image
           src="/driver.png"
           width={1101}
@@ -15,15 +15,9 @@ const Banner = () => {
           alt="banner"
           className=" w-full h-full"
         />
-      <Image
-          src="/frame.png"
-          width={1101}
-          height={634}
-          alt="banner"
-          className=" w-full h-full"
-        />
+     
         </div>
-         <div className=" container  flex lg:flex-row flex-col lg:items-center  justify-center ">
+         <div className=" container  flex lg:flex-row flex-col lg:items-center  justify-between ">
           <div className="sm:w-[50%] w-full    h-full">
             <div className="header-1 text-white font-bold sm:mb-[32px] mb-[16px] capitalize">
               <h2>book your taxi from </h2>
@@ -51,7 +45,7 @@ const Banner = () => {
             </button>
           </div>
           <div className="flex lg:h-[634px] md:h-[280px] sm:h-[260px] flex-col sm:justify-end justify-start xl:w-auto ">
-          <div className="grid  grid-cols-3 md:gap-x-0 gap-x-3 justify-items-center lg::justify-items-start  w-full  lg:z-40  lg:mb-[-37px] sm:gap-y-0 mt-4 gap-y-4">
+          <div className="grid  grid-cols-3 md:gap-x-0 gap-x-3  xl:ms-[84px] justify-items-center lg::justify-items-evenly  w-full  lg:z-40  lg:mb-[-37px] sm:gap-y-0 mt-4 gap-y-4">
             <div className="sm:w-[209px] w-full  sm:h-[74px] bg-[#1F8A70] sm:text-start md:px-0 px-2 text-white text-center flex flex-col items-center img-shape2">
               <h3 className="font-medium text-[24px]">8k+</h3>
               <h6 className="font-normal text-[#DEDEDE]">App Downloads</h6>
