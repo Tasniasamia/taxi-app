@@ -9,7 +9,7 @@ import { TfiEmail } from "react-icons/tfi";
 const Footer = () => {
   const pathname = usePathname();
   return (
-    <div className="!bg-bgdark">
+    <div className="!bg-bgdark relative">
       <div className="container  md:flex flex md:flex-row flex-col sm:grid grid-cols-2 justify-items-stretch   md:h-[422px]">
         <div className="md:w-[35%] w-full flex   md:justify-start">
           <div className=" md:pt-[110px] pt-[50px] w-[359px]">
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="md:w-[30%] w-full text-white  flex md:justify-center sm:justify-end justify-start md:pt-[110px] pt-[50px] lg:border-y-0 lg:border-x border-x-0  lg:border-[#919BB3] ">
+        <div className="md:w-[30%] w-full text-white  flex md:justify-center sm:justify-end justify-start md:pt-[110px] pt-[50px] lg:border-y-0 lg:border-x border-x-0  lg:border-[#919BB3] lg:border-opacity-[30%]">
           <div className="flex-col  md:text-start sm:text-center text-start ">
             <h3 className="header-5 text-white font-semibold mb-[24px] ">
               QUICK LINKS
@@ -105,7 +105,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="pt-[20px] pb-[24px] text-white border-t border-[#919BB3]">
+      <div className="pt-[20px] pb-[24px] text-white border-t border-[#919BB3] border-opacity-[30%]">
         <div className="container flex md:flex-row flex-col md:justify-between justify-center">
           <p className="md:text-start text-center md:pb-0 pb-6">&copy; 2024 All rights reserved by appstick</p>
           <div className="text-[12px] flex gap-x-3 items-center justify-center">
@@ -120,6 +120,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <img src="/car2.png"className="w-[241px] h-[128px] absolute bottom-[65px] left-[10px]"alt="car"/>
     </div>
   );
 };

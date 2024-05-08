@@ -5,9 +5,10 @@ import { VscSend } from "react-icons/vsc";
 
 const Banner = () => {
   return (
-    <div className=" md:pt-[86.99px] pt-[40px] md:pb-[100px] pb-[50px] bg-[url('/bg.png')] bg-cover bg-no-repeat">
+    <div className="relative md:pt-[86.99px] pt-[40px] md:pb-[100px] pb-[50px] bg-[url('/bg.png')] bg-cover bg-no-repeat">
+      <img src="/car_svg.png" className="w-[293px] h-[158px] absolute top-[578px] left-[90px] md:block hidden"alt="svg"/>
       <div className=" h-[634px] relative ">
-        <div className="absolute sm:block hidden right-0 w-[55%] 2xl:w-[50%] h-full img-shape">
+        <div className="absolute sm:block hidden right-0 w-[55%] 2xl:w-[50%] h-full img-shape  ">
         <Image
           src="/driver.png"
           width={1101}
@@ -18,7 +19,7 @@ const Banner = () => {
      
         </div>
          <div className=" container  flex lg:flex-row flex-col lg:items-center  justify-between ">
-          <div className="sm:w-[50%] w-full    h-full">
+          <div className="sm:w-[48%] w-full    h-full">
             <div className="header-1 text-white font-bold sm:mb-[32px] mb-[16px] capitalize">
               <h2>book your taxi from </h2>
               <h2 className=" text-[#1F8A70]"> anywhere today!</h2>

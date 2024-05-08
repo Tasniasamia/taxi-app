@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="lg:py-[143px] py-[60px]">
+    <div className="lg:py-[130px] py-[60px]">
       <div className="container grid xl:grid-cols-2 grid-cols-1">
         <div className="xl:max-w-[595px] xl:max-h-[424px] ">
           <img src="/group.png" alt="group" className="h-full w-full" />
@@ -27,7 +27,7 @@ const About = () => {
             </div>
           </div> */}
 
-          <h3 className="header-3 mt-[16px] text-[#191D31]">
+          <h3 className="header-3  text-[#191D31]">
             "Drive Your Dreams: Your Trusted Car Rental Destination"
           </h3>
           <p className="mt-[24px] font-normal text-[#2B2B2B]">
