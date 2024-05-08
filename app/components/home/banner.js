@@ -45,7 +45,7 @@ const Banner = () => {
             </button>
           </div>
           <div className="flex lg:h-[634px] md:h-[280px] sm:h-[260px] flex-col sm:justify-end justify-start xl:w-auto ">
-          <div className="grid  grid-cols-3 md:gap-x-0 gap-x-3  xl:ms-[84px] justify-items-center lg::justify-items-evenly  w-full  lg:z-40  lg:mb-[-37px] sm:gap-y-0 mt-4 gap-y-4">
+          <div className="grid  grid-cols-3 md:gap-x-0 gap-x-3  2xl:ms-[84px] justify-items-center lg::justify-items-evenly  w-full  lg:z-40  lg:mb-[-37px] sm:gap-y-0 mt-4 gap-y-4">
             <div className="sm:w-[209px] w-full  sm:h-[74px] bg-[#1F8A70] sm:text-start md:px-0 px-2 text-white text-center flex flex-col items-center img-shape2">
               <h3 className="font-medium text-[24px]">8k+</h3>
               <h6 className="font-normal text-[#DEDEDE]">App Downloads</h6>
