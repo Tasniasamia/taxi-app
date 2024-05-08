@@ -66,7 +66,7 @@ const Header = () => {
       },
   ];
   return (
-    <div className="bg-bgdark lg:pt-[32px] pt-[16px]">
+    <div className="bg-black lg:py-[32px] py-[16px] relative bottom-[-32px]">
       <div className="container  flex justify-between ">
         <Link href="/">
           <img src="/logo.png" className="h-[50px] w-[164px] " alt="logo" />

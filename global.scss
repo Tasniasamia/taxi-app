@@ -43,3 +43,9 @@
   background-color: transparent!important;
   color: #1F8A70 !important;
 }
+@media screen and (max-width:650px){
+  .img-shape2{
+   clip-path: inset(0 0 0 0);;
+  
+  }
+}
