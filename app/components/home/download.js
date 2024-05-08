@@ -36,12 +36,15 @@ const Download = () => {
               </h5>
             </div>
             <div className="flex flex-col items-center">
-                <div className="md:max-w-[430px] md:max-h-[458px]">
-                    <img src="/android.png"className="h-full w-auto"alt="android"/>
-                </div>
+              <div className="md:max-w-[430px] md:max-h-[458px]">
+                <img
+                  src="/android.png"
+                  className="h-full w-auto"
+                  alt="android"
+                />
+              </div>
             </div>
-            <div>
-           </div>
+            <div></div>
           </div>
           <div className="pt-[40px] px-[32px] bg-white rounded-2xl custom-shadow ">
             <h2 className="header-2 text-naviblue">IOS</h2>
@@ -62,12 +65,15 @@ const Download = () => {
               </h5>
             </div>
             <div className="flex flex-col items-center">
-                <div className="md:max-w-[430px] md:max-h-[458px]">
-                    <img src="/iphone.png"className="h-full w-auto"alt="android"/>
-                </div>
+              <div className="md:max-w-[430px] md:max-h-[458px]">
+                <img
+                  src="/iphone.png"
+                  className="h-full w-auto"
+                  alt="android"
+                />
+              </div>
             </div>
-            <div>
-           </div>
+            <div></div>
           </div>
         </div>
       </div>

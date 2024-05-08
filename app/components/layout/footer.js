@@ -16,7 +16,7 @@ const Footer = () => {
             <Link href="/">
               <img src="/logo.png" className="h-[50px] w-[164px] " alt="logo" />
             </Link>
-            <p className="mt-[10px] font-normal text-white">
+            <p className="mt-[10px] font-normal text-white text-opacity-[60%]">
               Stay updated by connecting with us on social media and other
               websites.
             </p>
@@ -88,7 +88,7 @@ const Footer = () => {
             <h5 className="header-5 font-semibold text-white mb-[24px]">
               Subscribe
             </h5>
-            <p className="text-white font-normal  ">
+            <p className="text-white text-opacity-[60%] font-normal  ">
               Stay connected with us for regular updates by providing your email
               address
             </p>
@@ -96,7 +96,7 @@ const Footer = () => {
               <input
                 type="text"
                 placeholder="Your email"
-                className="w-full rounded-full bg-transparent border border-white  focus:outline-none  h-[50px] ps-[24px] "
+                className="w-full rounded-full bg-transparent border border-white border-opacity-[50%] focus:outline-none  h-[50px] ps-[24px] "
               />
               <div className="w-[68px] h-[50px] bg-primary absolute right-0 top-0 flex justify-center items-center rounded-e-full">
                 <VscSend className=" text-white  " size={22} />
