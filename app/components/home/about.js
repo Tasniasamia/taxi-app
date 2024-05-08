@@ -8,7 +8,7 @@ const About = () => {
           <img src="/group.png" alt="group" className="h-full w-full" />
         </div>
         <div>
-          <div className="header-5 text-primary font-semibold mb-[16px] lg:inline-block lg:text-start text-center">
+          <div className="header-5 text-primary font-semibold mb-[16px] lg:inline-block xl:text-start text-center  xl:mt-0 mt-[24px]">
             About Our 247taxapp
              {/* line bar */}
             <div className="relative max-w-[114px] mx-auto mt-[16px]">
